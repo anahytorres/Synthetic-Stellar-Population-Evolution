@@ -2,7 +2,7 @@
 
 A compact, reproducible Monte Carlo pipeline to sample an initial stellar population, evolve it to compact remnants (WD/NS/BH) with simple, literature‑based relations, and visualize key distributions. The workflow centers on a Jupyter notebook designed for clarity, reproducibility, and extensibility.
 
-Main notebook: `MONTE CARLO.ipynb`
+Main notebook: `synthetic_stellar_population_evolution.ipynb`
 
 ## Highlights
 
@@ -22,7 +22,7 @@ Main notebook: `MONTE CARLO.ipynb`
   pip install jupyter numpy matplotlib
   jupyter lab  # or: jupyter notebook
   ```
-- Open `VER 23-11-remnants-fixed.ipynb`
+- Open `synthetic_stellar_population_evolution.ipynb`
 - Run all cells. The last cell calls `generate_all_plots()` to render Plots 1–5.
 
 ## Methodology
